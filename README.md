@@ -1,5 +1,6 @@
 
-The code for this repository was used for the next publication. If you found this code useful please cite our paper:
+The code of this repository was used for the following publication. If
+you find this code useful please cite our paper:
 
 ```
 @article{Gallego2017,
@@ -10,7 +11,10 @@ year = "2017"
 }
 ```
 
-The following sections include the instructions for reproducing the experiments, basically consisting of the following steps: prepare the datasets, train a neural network, export the neural codes, and finally use the proposed ckNN algorithm.
+Below we include instructions for reproducing the experiments.
+Basically, they consist in the following steps: preparing data,
+training a neural network, exporting the neural codes, and finally
+using the proposed ckNN+ algorithm.
 
 
 ## Datasets
@@ -50,9 +54,9 @@ For example, for satimage we execute "`python export_dnn.py -path datasets/satim
 
 
 
-## ckNN
+## ckNN+
 
-Once the neural codes are obtained we may proceed to use the ckNN algorithm:
+Once the neural codes are obtained we may proceed to use the ckNN+ algorithm:
 
 ```
 $ python cknn.py -path datasets/usps/m1_cv0
